@@ -38,9 +38,9 @@ app.use(function (err, req, res, next) {
   res.render("error");
 });
 
-const PORT = process.env.PORT || 5000;
+// const PORT = process.env.PORT || 5000;
 
-app.listen(PORT, () => console.log("hi"));
+// app.listen(PORT, () => console.log("hi"));
 
 //het home page
 
