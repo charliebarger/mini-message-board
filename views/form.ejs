@@ -27,15 +27,17 @@
         </div>
     </header>
     <main>
-        <div class=" p-4 mx-auto border border-secondary rounded my-4" style="max-width: 36rem;">
-            <form id="message-form" action="/new" method="POST">
-                <label class="form-label" for="username">Username</label>
-                <input required class="form-control mb-3" name="username" id="username" type="text">
-                <label class="form-label" for="message">Message</label>
-                <textarea required class="form-control mb-3" name="message" name="message" id="message"
-                    rows="5"></textarea>
-                <input class="btn btn-primary" type="submit" name="submit" id="submit" value="Submit">
-            </form>
+        <div class="p-4">
+            <div class=" p-4 mx-auto border border-secondary rounded " style="max-width: 36rem;">
+                <form id="message-form" action="/new" method="POST">
+                    <label class="form-label" for="username">Username</label>
+                    <input required class="form-control mb-3" name="username" id="username" type="text">
+                    <label class="form-label" for="message">Message</label>
+                    <textarea required class="form-control mb-3" name="message" name="message" id="message"
+                        rows="5"></textarea>
+                    <input class="btn btn-primary" type="submit" name="submit" id="submit" value="Submit">
+                </form>
+            </div>
         </div>
     </main>
 </body>
